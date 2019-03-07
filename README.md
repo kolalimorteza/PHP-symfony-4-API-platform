@@ -40,6 +40,9 @@ CREATE DATABASE product CHARACTER SET utf8 COLLATION utf8_general_ci;
   <img src="https://i.imgur.com/4QcJoJY.jpg" width="400">
 * 2. The next on the list is GET list of products.and for searching a product by name and id.
 * You can test this by executing the following request:
+```sql
+`GET /api/{page} (http://127.0.0.1:8080/api/{})`;
+```
  1. `GET /api/{page} (http://127.0.0.1:8080/api/{})`
  2. `GET /api/product/{id} (http://127.0.0.1:8080/api/product/{2})`
  3. `GET /api/product/{Name} (http://127.0.0.1:8080/api/product/post!)`
