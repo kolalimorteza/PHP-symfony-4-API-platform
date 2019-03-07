@@ -35,15 +35,15 @@ CREATE DATABASE product CHARACTER SET utf8 COLLATION utf8_general_ci;
 * All our Rest calls should be prefixed by /api
 * 1. We use POST to create a resource. 
 * You can test this by executing the following request:
- ## POST /api/add (http://127.0.0.1:8080/api/add)
+ `POST /api/add (http://127.0.0.1:8080/api/add)`
 * 2. The next on the list is GET list of products.and for searching a product by name and id.
 * You can test this by executing the following request:
- ## GET /api/{page} (http://127.0.0.1:8080/api/{})
- ## GET /api/product/{id} (http://127.0.0.1:8080/api/product/{2})
- ## GET /api/product/{Name} (http://127.0.0.1:8080/api/product/post!)
+ `GET /api/{page} (http://127.0.0.1:8080/api/{})`
+ `GET /api/product/{id} (http://127.0.0.1:8080/api/product/{2})`
+ `GET /api/product/{Name} (http://127.0.0.1:8080/api/product/post!)`
 * 3. The next on the list is PUT updating of product by id.
 * You can test this by executing the following request:
- ## PUT /api/update/{id} (http://127.0.0.1:8080/api/update/2)
+ `PUT /api/update/{id} (http://127.0.0.1:8080/api/update/2)`
  * 4. The next on the list is DELETE deleteing of product by id.
 * You can test this by executing the following request:
- ## DELETE /api/product/{id} (http://127.0.0.1:8080/api/product/2)
+ `DELETE /api/product/{id} (http://127.0.0.1:8080/api/product/2)`
